@@ -83,6 +83,7 @@ Below is an example of an address object, showing the data structure to expect.
 ``` php
 $address = Address::Get('<CUSTOMER ID>', '<ID>');
 ```
+> **Note:** Sending NULL for <ID> will return ALL addresses associated with the <CUSTOMER ID>.
 
 #### Asynchronous
 ``` js
