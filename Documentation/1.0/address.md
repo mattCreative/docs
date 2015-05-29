@@ -84,6 +84,8 @@ Below is an example of an address object, showing the data structure to expect.
 $address = Address::Get('<CUSTOMER ID>', '<ID>');
 ```
 
+> **Note:** Sending NULL for ID will return all addresses associated with CUSTOMER ID.
+
 #### Asynchronous
 ``` js
 moltin.Address.Get('<CUSTOMER ID>', '<ID>', function(address) {
